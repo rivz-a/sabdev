@@ -1,0 +1,40 @@
+.Layout {    
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin: auto;                
+    }
+}
+
+@media (max-width: 2500px){
+    .Layout main {
+        min-width: 1280px;        
+    }
+}
+@media (max-width: 1380px){
+    .Layout main {
+        min-width: 1024px;        
+    }
+}
+@media (max-width: 1124px){
+    .Layout main {
+        min-width: 768px;        
+    }
+}
+@media (max-width: 868px){
+    .Layout main {
+        min-width: 640px;        
+    }
+}
+@media (max-width: 740px){
+    .Layout main {
+        min-width: 480px;        
+    }
+}
+@media (max-width: 500px){
+    .Layout main {
+        min-width: 320px;        
+    }
+}
+

@@ -1,0 +1,79 @@
+.Menu{
+    display: flex;
+    flex-direction: column;   
+    text-transform: uppercase;
+    background-color: #f3f3f3;
+    font-weight: 600;
+    font-size: 14px;
+
+    ul{
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex: auto;
+        li{
+            flex-basis: auto;
+            flex-grow: 1;
+            text-align: center;
+            max-width: 200px;
+            align-items: center;
+            display: flex;
+        }
+    }
+
+        .MenuBlock{
+            display: flex;
+            flex-direction: row;
+            flex-grow: 1;
+            margin: auto;             
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }    
+    a{
+        color: #212121;
+        text-decoration: none;        
+        -webkit-transition-property: cubic-bezier(1,0,0,0) .5s;
+        -moz-transition-property: cubic-bezier(1,0,0,0) .5s;
+        -o-transition-property: cubic-bezier(1,0,0,0) .5s;
+        transition: cubic-bezier(1,0,0,0) .5s;
+    }
+    a:hover {
+        color: #FF2D21;
+        -webkit-transition-property: cubic-bezier(0,0,0,1) .5s;
+        -moz-transition-property: cubic-bezier(0,0,0,1) .5s;
+        -o-transition-property: cubic-bezier(0,0,0,1) .5s;
+        transition: cubic-bezier(0,0,0,1) .5s;
+    }
+}
+
+@media (max-width: 2500px){
+     .Menu .MenuBlock {
+        min-width: 1280px;        
+    }
+}
+@media (max-width: 1380px){
+     .Menu .MenuBlock {
+        min-width: 1024px; 
+               
+    }
+}
+@media (max-width: 1124px){
+     .Menu .MenuBlock {
+        min-width: 768px;        
+    }
+}
+@media (max-width: 868px){
+     .Menu .MenuBlock {
+        min-width: 640px;        
+    }
+}
+@media (max-width: 740px){
+     .Menu .MenuBlock {
+        min-width: 480px;        
+    }
+}
+@media (max-width: 500px){
+     .Menu .MenuBlock {
+        min-width: 320px;        
+    }
+}

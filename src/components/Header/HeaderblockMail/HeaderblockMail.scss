@@ -1,0 +1,29 @@
+.HeaderblockMail{   
+    width: 190px;  
+    height: 73px;   
+    border: 1px solid #8F8F8F;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    .Block1{
+        padding-left: 5px;
+        padding-right: 5px;
+        border-right: 1px solid;
+        border-color: #8F8F8F;
+        height: 30px;
+        align-items: center;
+        display: flex;
+    }  
+    .Block2{
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+        line-height: 1.6;
+    }
+}

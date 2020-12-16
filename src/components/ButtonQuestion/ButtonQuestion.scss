@@ -1,0 +1,27 @@
+.ButtonQuestion{    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    width: 240px;
+    height: 60px;
+    border: 2px solid #FF2D21;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: opacity .22s ease-in;
+    margin-left: 15px;
+}
+.ButtonQuestion:hover{
+    background-color: #f3f3f3;
+}
+.ButtonQuestion:active {
+    padding: calc(.25em + 1px) .5em calc(.25em - 1px);    
+    box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px rgba(137, 137, 137, 0.45);
+}
+.ButtonQuestion:focus{    
+        outline: -webkit-focus-ring-color auto 0px;
+    
+}

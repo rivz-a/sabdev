@@ -1,0 +1,99 @@
+.Mainpage{
+    display: flex;   
+    flex-direction: column;
+    margin: auto;
+    .BlockHeaderCircle{
+        display: flex;
+        align-items: center; 
+        padding: 10px;      
+    }
+    .H1text{        
+        font-size: 55px;
+        color: #212121;
+        text-transform: uppercase;
+        font-weight: 800;
+        line-height: 1.4;
+        span{
+            background-color: #FF2D21;
+            color: white;
+            padding-left: 5px;
+            padding-right: 30px;
+
+        }
+    }   
+    .Text{
+        color: #212121;
+        font-size: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        line-height: 1.8;
+    }
+    .Button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .Circle{
+        margin: auto;
+    }
+
+    .BlockPromotionSEO{        
+        padding-left: 10px;
+        flex-direction: row;
+        display: flex;
+        align-items: center;        
+        padding: 10px;      
+        padding-top: 5%;
+        .BlockImage{
+
+        }
+        .BlockText{
+            padding-left: 10%;
+            line-height: 28px;            
+            color: #212121;
+            h2{
+                font-weight: 600;
+                font-size: 36px;
+                border-left: 5px solid;
+                border-color: #CECBCE;
+                color: #212121;
+                padding-left: 5px;
+            }
+            div{
+                width: 450px;
+                text-align: left;
+            }
+            ul{
+                padding: 0;
+                //list-style: none;
+                list-style: square;
+                //list-style-image: url('./img/li.png');
+            }
+        }
+    }
+}
+@media (max-width: 2500px){
+    .Mainpage {
+       width: 1280px;   
+   }
+}
+@media (max-width: 1380px){
+    .Mainpage {
+       width: 1024px;        
+   }
+}
+@media (max-width: 1124px){
+    .Mainpage {
+       width: 768px;        
+   }
+}
+@media (max-width: 868px){
+    .Mainpage {
+       width: 640px;        
+   }
+}
+@media (max-width: 768px){
+    .Mainpage {
+       display: none;        
+   }
+}
